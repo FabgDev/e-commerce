@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__icon" src="assets/icon/icon_menu.svg">
+        <img class="header__logo" src="assets/logo/logo_yard_sale.svg">
+        <img class="header__icon" src="assets/icon/icon_shopping_cart.svg">
+    </header>
+    <main class="main-login">
+        <div class="page">
+            <div class="login__instructions">
+                <h1 class="login__title">My account</h1>
+            </div>
+            <div class="login__input">
+                <div class="login__input--item">
+                    <label for="nameinput" class="login__label">Name</label>
+                    <input type="text" id="nameinput" class="login__input-text" placeholder="Jon Smith" />
+                </div>
+                <div class="login__input--item">
+                    <label for="emailinput" class="login__label">Email address</label>
+                    <input type="email" id="emailinput" class="login__input-text" placeholder="someone@example.com" />
+                </div>
+                <div class="login__input--item">
+                    <label for="passwordinput" class="login__label">Password</label>
+                    <input type="password" id="passwordinput" class="login__input-text" placeholder="**********" />
+                </div>
+            </div>
+            <div class="login__options">
+                <button class="login__button login__button--main">Create account</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
